@@ -1,0 +1,11 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  max-height: 500px;
+}
+
+.messages > .scrollable-messages {
+  flex: 1;
+  overflow-y: scroll; /* Apply scrolling only to the inner .scrollable-message */
+}
